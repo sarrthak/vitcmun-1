@@ -18,8 +18,54 @@ if($_SESSION["email"]!=true)
 <style type="text/css">
 .mycss
 {
-font-weight:normal;color:#FFDD00;background-color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:28px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:1;margin:0px;padding:18px;
+font-weight:normal;color:#FFFFFF;background-color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:28px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:1;margin:0px;padding:18px;border-radius: 25px;
 }
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 20px;
+     width: 20px;
+     border: 0;
+     border-radius: 100px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+}
+input[type="radio"] {
+  margin-right: 4px;
+	margin-bottom:10px;
+}
+
 </style>
 </head>
 <body style="background-color:#1c1c1c">
@@ -33,54 +79,54 @@ font-weight:normal;color:#FFDD00;background-color:#000000;letter-spacing:1pt;wor
 	      <h3 class="mycss"><b>European Council</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1EC" value="Agenda 1EC" checked>Reviewing European Union's policy in the following fields: a) Migration  b) Internal Security  c) Fiscal and Monetary Union's future<br><br>
-			<input type="radio" name="ans_1EC" value="Agenda 2EC">Developing an integrated cooperation between the countries of the EC to foster a better implementation of the Sustainable development goals.<br><br>
-			<input type="radio" name="ans_1EC" value="Agenda 3EC">Addressing the issue of rising euroscepticism.<br>
+			<input type="radio" name="ans_1EC" value="Agenda 1EC" class="form-radio" checked>Reviewing European Union's policy in the following fields: a) Migration  b) Internal Security  c) Fiscal and Monetary Union's future<br><br>
+			<input type="radio" name="ans_1EC" value="Agenda 2EC" class="form-radio">Developing an integrated cooperation between the countries of the EC to foster a better implementation of the Sustainable development goals.<br><br>
+			<input type="radio" name="ans_1EC" value="Agenda 3EC" class="form-radio">Addressing the issue of rising euroscepticism.<br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>United Nations Commission on the Status of Women</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1UNSCW" value="Agenda 1UNSCW" checked>Addressing the role of women in capacity building efforts in post conflict zones.<br><br>
-			<input type="radio" name="ans_1UNSCW" value="Agenda 2UNSCW">Addressing the wage gap with emphasis on anti discriminatory laws in the workplace.<br><br>
-			<input type="radio" name="ans_1UNSCW" value="Agenda 3UNSCW">Furthering Women’s Participation in and Access to Information and Communication Technologies<br><br>
+			<input type="radio" name="ans_1UNSCW" value="Agenda 1UNSCW" class="form-radio" checked>Addressing the role of women in capacity building efforts in post conflict zones.<br><br>
+			<input type="radio" name="ans_1UNSCW" value="Agenda 2UNSCW" class="form-radio">Addressing the wage gap with emphasis on anti discriminatory laws in the workplace.<br><br>
+			<input type="radio" name="ans_1UNSCW" value="Agenda 3UNSCW" class="form-radio">Furthering Women’s Participation in and Access to Information and Communication Technologies<br><br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>All India Political Parties Meet</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" checked>Discussing the repercussions of internal political corruption on international deals with special emphasis on the Rafale deal.<br><br>
-			<input type="radio" name="ans_1AIPPM" value="Agenda 2AIPPM">Reviewing the Independence of Statutory and Constitutional Bodies.<br><br>
-			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM">Data Protection and Safety of the Aadhar.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" class="form-radio" checked>Discussing the repercussions of internal political corruption on international deals with special emphasis on the Rafale deal.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 2AIPPM" class="form-radio">Reviewing the Independence of Statutory and Constitutional Bodies.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM" class="form-radio">Data Protection and Safety of the Aadhar.<br><br>
 			</div>
 			<br>
 			<br>
-			<h3 class="mycss"><b>Disarmament and International Security</b></h3>
+			<h3 class="mycss"><b>Disarnament and International Security</b></h3>
 			<div align="left">
 				<br>
-		  <input type="radio" name="ans_1DISEC" value="Agenda 1DISEC" checked>COMBATING ARMS PROLIFERATION AIDING ILLEGAL DRUG TRAFFICKING<br><br>
-		  <input type="radio" name="ans_1DISEC" value="Agenda 2DISEC">UPDATING THE BIOLOGICAL WEAPONS CONVENTION<br><br>
-		  <input type="radio" name="ans_1DISEC" value="Agenda 3DISEC">Establishing a roadmap for the implementation of the Comprehensive Nuclear Test Ban Treaty<br><br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 1DISEC" class="form-radio" checked>COMBATING ARMS PROLIFERATION AIDING ILLEGAL DRUG TRAFFICKING<br><br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 2DISEC" class="form-radio">UPDATING THE BIOLOGICAL WEAPONS CONVENTION<br><br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 3DISEC" class="form-radio">Establishing a roadmap for the implementation of the Comprehensive Nuclear Test Ban Treaty<br><br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>White House Situation Room</b></h3>
 		  <div align="left">
 				<br>
-		  <input type="radio" name="ans_1WHSR" value="Agenda 1WHSW" checked>Cuban Missile Crisis<br><br>
-		  <input type="radio" name="ans_1WHSR" value="Agenda 2WHSW">Futuristic Syria Timeline <br><br>
-		  <input type="radio" name="ans_1WHSR" value="Agenda 3WHSW">Events leading up to 26 December 1991<br><br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 1WHSW" class="form-radio" checked>Cuban Missile Crisis<br><br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 2WHSW" class="form-radio">Futuristic Syria Timeline <br><br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 3WHSW" class="form-radio">Events leading up to 26 December 1991<br><br>
 			</div>
 			<br>
 			<br>
 			<h3 class="mycss"><b>Security Council</b></h3>
 			<div align="left">
 				<br>
-		      <input type="radio" name="ans_1SC" value="Agenda 1SC" checked>Role of diamonds in fuelling conflict - A situational understanding of the African problem <br><br>
-		      <input type="radio" name="ans_1SC" value="Agenda 2SC">Situation in Yemen<br><br>
-		      <input type="radio" name="ans_1SC" value="Agenda 3SC">The Cuban missile crisis.<br><br>
+		      <input type="radio" name="ans_1SC" value="Agenda 1SC" class="form-radio" checked>Role of diamonds in fuelling conflict - A situational understanding of the African problem <br><br>
+		      <input type="radio" name="ans_1SC" value="Agenda 2SC" class="form-radio">Situation in Yemen<br><br>
+		      <input type="radio" name="ans_1SC" value="Agenda 3SC" class="form-radio">The Cuban missile crisis.<br><br>
 			 <br>
 			 <br>
 			</div>
@@ -94,7 +140,7 @@ font-weight:normal;color:#FFDD00;background-color:#000000;letter-spacing:1pt;wor
 		</div-->
 			<div align="center" style="font-size: 20px;border-radius: 5px">
 			<div class="form-row">
-                <button name="form1" type="submit" style="display: block; margin: 0 auto;" >Click to Proceed</button>
+                <button name="form1" type="submit" style="display: block; margin: 0 auto;border-radius: 25px;" >Click to Proceed</button>
             </div>
 		</div>
 		</form>
