@@ -28,12 +28,12 @@ font-weight:normal;color:#FFFFFF;background-color:#000000;letter-spacing:1pt;wor
      display: inline-block;
      position: relative;
      background-color: #f1f1f1;
-     color: #666;
+     color: #000000;
      top: 10px;
-     height: 20px;
-     width: 20px;
+     height: 30px;
+     width: 30px;
      border: 0;
-     border-radius: 100px;
+     border-radius: 50px;
      cursor: pointer;
      margin-right: 7px;
      outline: none;
@@ -46,14 +46,15 @@ font-weight:normal;color:#FFFFFF;background-color:#000000;letter-spacing:1pt;wor
      top: 7px;
      content: '\02143';
      transform: rotate(40deg);
+		 color: #ffffff;
 }
 .form-radio:hover
 {
-     background-color: #f7f7f7;
+     background-color: #333333;
 }
 .form-radio:checked
 {
-     background-color: #f1f1f1;
+     background-color: #000000;
 }
 label
 {
@@ -79,54 +80,60 @@ input[type="radio"] {
 	      <h3 class="mycss"><b>European Council</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1EC" value="Agenda 1EC" class="form-radio" checked>Reviewing European Union's policy in the following fields: a) Migration  b) Internal Security  c) Fiscal and Monetary Union's future<br><br>
+			<input type="radio" name="ans_1EC" value="Agenda 1EC" class="form-radio">Reviewing European Union's policy in the following fields: a) Migration  b) Internal Security  c) Fiscal and Monetary Union's future<br><br>
 			<input type="radio" name="ans_1EC" value="Agenda 2EC" class="form-radio">Developing an integrated cooperation between the countries of the EC to foster a better implementation of the Sustainable development goals.<br><br>
 			<input type="radio" name="ans_1EC" value="Agenda 3EC" class="form-radio">Addressing the issue of rising euroscepticism.<br>
+			<input type="radio" name="ans_1EC" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>United Nations Commission on the Status of Women</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1UNSCW" value="Agenda 1UNSCW" class="form-radio" checked>Addressing the role of women in capacity building efforts in post conflict zones.<br><br>
+			<input type="radio" name="ans_1UNSCW" value="Agenda 1UNSCW" class="form-radio">Addressing the role of women in capacity building efforts in post conflict zones.<br><br>
 			<input type="radio" name="ans_1UNSCW" value="Agenda 2UNSCW" class="form-radio">Addressing the wage gap with emphasis on anti discriminatory laws in the workplace.<br><br>
 			<input type="radio" name="ans_1UNSCW" value="Agenda 3UNSCW" class="form-radio">Furthering Women’s Participation in and Access to Information and Communication Technologies<br><br>
+			<input type="radio" name="ans_1UNSCW" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>All India Political Parties Meet</b></h3>
 			<div align="left">
 				<br>
-			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" class="form-radio" checked>Discussing the repercussions of internal political corruption on international deals with special emphasis on the Rafale deal.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" class="form-radio">Discussing the repercussions of internal political corruption on international deals with special emphasis on the Rafale deal.<br><br>
 			<input type="radio" name="ans_1AIPPM" value="Agenda 2AIPPM" class="form-radio">Reviewing the Independence of Statutory and Constitutional Bodies.<br><br>
 			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM" class="form-radio">Data Protection and Safety of the Aadhar.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
 			<br>
 			<h3 class="mycss"><b>Disarnament and International Security</b></h3>
 			<div align="left">
 				<br>
-		  <input type="radio" name="ans_1DISEC" value="Agenda 1DISEC" class="form-radio" checked>COMBATING ARMS PROLIFERATION AIDING ILLEGAL DRUG TRAFFICKING<br><br>
-		  <input type="radio" name="ans_1DISEC" value="Agenda 2DISEC" class="form-radio">UPDATING THE BIOLOGICAL WEAPONS CONVENTION<br><br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 2DISEC" class="form-radio">Updating the biological weapons convention<br><br>
+			<input type="radio" name="ans_1DISEC" value="Agenda 1DISEC" class="form-radio">Combating arms proliferation aiding illegal drug trafficking<br><br>
 		  <input type="radio" name="ans_1DISEC" value="Agenda 3DISEC" class="form-radio">Establishing a roadmap for the implementation of the Comprehensive Nuclear Test Ban Treaty<br><br>
+			<input type="radio" name="ans_1DISEC" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
 			<br>
 		  <h3 class="mycss"><b>White House Situation Room</b></h3>
 		  <div align="left">
 				<br>
-		  <input type="radio" name="ans_1WHSR" value="Agenda 1WHSW" class="form-radio" checked>Cuban Missile Crisis<br><br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 1WHSW" class="form-radio">Cuban Missile Crisis<br><br>
 		  <input type="radio" name="ans_1WHSR" value="Agenda 2WHSW" class="form-radio">Futuristic Syria Timeline <br><br>
 		  <input type="radio" name="ans_1WHSR" value="Agenda 3WHSW" class="form-radio">Events leading up to 26 December 1991<br><br>
+			<input type="radio" name="ans_1WHSR" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
 			<br>
 			<h3 class="mycss"><b>Security Council</b></h3>
 			<div align="left">
 				<br>
-		      <input type="radio" name="ans_1SC" value="Agenda 1SC" class="form-radio" checked>Role of diamonds in fuelling conflict - A situational understanding of the African problem <br><br>
+		      <input type="radio" name="ans_1SC" value="Agenda 1SC" class="form-radio">Role of diamonds in fuelling conflict - A situational understanding of the African problem <br><br>
 		      <input type="radio" name="ans_1SC" value="Agenda 2SC" class="form-radio">Situation in Yemen<br><br>
 		      <input type="radio" name="ans_1SC" value="Agenda 3SC" class="form-radio">The Cuban missile crisis.<br><br>
+					<input type="radio" name="ans_1SC" value="NIL" class="form-radio" checked>No Preference<br><br>
 			 <br>
 			 <br>
 			</div>
