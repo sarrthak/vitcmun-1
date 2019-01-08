@@ -102,7 +102,8 @@ input[type="radio"] {
 				<br>
 			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" class="form-radio">Discussing the repercussions of internal political corruption on international deals with special emphasis on the Rafale deal.<br><br>
 			<input type="radio" name="ans_1AIPPM" value="Agenda 2AIPPM" class="form-radio">Reviewing the Independence of Statutory and Constitutional Bodies.<br><br>
-			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM" class="form-radio">Data Protection and Safety of the Aadhar.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM" class="form-radio">Deliberating the role of political parties in fuelling conflict amongst religious communities, with speacial emphasis on the current situation in Kerala and Uttar Pradesh.<br><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 4AIPPM" class="form-radio">A discussion on the Women’s Reservation Bill.<br><br>
 			<input type="radio" name="ans_1AIPPM" value="NIL" class="form-radio" checked>No Preference<br><br>
 			</div>
 			<br>
