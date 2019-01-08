@@ -13,6 +13,7 @@ if($_SESSION["email"]!=true)
 <link rel="stylesheet" href="CSS/demo.css">
 <link rel="stylesheet" href="CSS/form-labels-on-top.css">
 <link rel="stylesheet" href="CSS/scrollbar.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <title>VITCMUN : Agenda Voting</title>
 <style type="text/css">
